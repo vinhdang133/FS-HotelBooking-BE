@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "FSDotNet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FSDotNet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FSDotNet.Common.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2013,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FSDotNet.Common/1.0.0": {
+      "type": "project",
+      "path": "../FSDotNet.Common/FSDotNet.Common.csproj",
+      "msbuildProject": "../FSDotNet.Common/FSDotNet.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FSDotNet.Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.25",
@@ -2044,7 +2060,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.Common\\FSDotNet.Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.Common\\FSDotNet.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -771,10 +771,21 @@
           }
         }
       },
+      "FSDotNet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FSDotNet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FSDotNet.Common.dll": {}
+        }
+      },
       "FSDotNet.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FSDotNet.Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25"
         },
@@ -1980,6 +1991,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FSDotNet.Common/1.0.0": {
+      "type": "project",
+      "path": "../FSDotNet.Common/FSDotNet.Common.csproj",
+      "msbuildProject": "../FSDotNet.Common/FSDotNet.Common.csproj"
     },
     "FSDotNet.DAL/1.0.0": {
       "type": "project",
