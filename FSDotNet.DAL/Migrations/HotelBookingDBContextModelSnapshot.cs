@@ -47,16 +47,18 @@ namespace FSDotNet.DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<Guid?>("RoomId")
+                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("TotalPrice")
                         .HasColumnType("float");
 
                     b.Property<Guid?>("UserId")
-                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("BookingHistoryId");
+
+                    b.HasIndex("RoomId");
 
                     b.HasIndex("UserId");
 
@@ -172,12 +174,17 @@ namespace FSDotNet.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid?>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid?>("UpdateByUser")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CreateByUser");
+
+                    b.HasIndex("RoleId");
 
                     b.HasIndex("UpdateByUser");
 
@@ -186,11 +193,17 @@ namespace FSDotNet.DAL.Migrations
 
             modelBuilder.Entity("FSDotNet.DAL.Models.BookingHistory", b =>
                 {
-                    b.HasOne("FSDotNet.DAL.Models.User", "User")
+                    b.HasOne("FSDotNet.DAL.Models.Room", "Room")
                         .WithMany()
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("FSDotNet.DAL.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Room");
 
                     b.Navigation("User");
                 });
@@ -212,9 +225,15 @@ namespace FSDotNet.DAL.Migrations
                         .WithMany()
                         .HasForeignKey("CreateByUser");
 
+                    b.HasOne("FSDotNet.DAL.Models.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId");
+
                     b.HasOne("FSDotNet.DAL.Models.User", "UpdateBy")
                         .WithMany()
                         .HasForeignKey("UpdateByUser");
+
+                    b.Navigation("Role");
 
                     b.Navigation("UpdateBy");
 

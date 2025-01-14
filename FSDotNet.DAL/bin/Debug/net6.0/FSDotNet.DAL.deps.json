@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "FSDotNet.DAL/1.0.0": {
         "dependencies": {
+          "FSDotNet.Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.Design": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25",
@@ -489,6 +490,11 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "FSDotNet.Common/1.0.0": {
+        "runtime": {
+          "FSDotNet.Common.dll": {}
+        }
       }
     }
   },
@@ -798,6 +804,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "FSDotNet.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -24,11 +24,12 @@ namespace FSDotNet.DAL.Models
 
         public Guid? RoomId { get; set; }
         [ForeignKey(nameof(RoomId))]
+        public Room Room { get; set; }
 
         public Guid? UserId { get; set; }
         [ForeignKey(nameof(UserId))]
 
-        public User     User { get; set; }
+        public User?     User { get; set; }
 
         public DateTime PayOn { get; set; }
 

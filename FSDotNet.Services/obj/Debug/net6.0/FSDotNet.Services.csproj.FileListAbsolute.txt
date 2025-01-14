@@ -16,3 +16,5 @@ C:\Users\user\Desktop\studymore\FSDotNet.Services\obj\Debug\net6.0\FSDotNet.Serv
 C:\Users\user\Desktop\studymore\FSDotNet.Services\obj\Debug\net6.0\ref\FSDotNet.Services.dll
 C:\Users\user\Desktop\studymore\FSDotNet.Services\bin\Debug\net6.0\FSDotNet.Services.runtimeconfig.json
 C:\Users\user\Desktop\studymore\FSDotNet.Services\obj\Debug\net6.0\FSDotNet.Services.genruntimeconfig.cache
+C:\Users\user\Desktop\studymore\FSDotNet.Services\bin\Debug\net6.0\FSDotNet.Common.dll
+C:\Users\user\Desktop\studymore\FSDotNet.Services\bin\Debug\net6.0\FSDotNet.Common.pdb

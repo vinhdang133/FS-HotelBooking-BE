@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\studymore\FSDotNet.Common\bin\Debug\net6.0\FSDotNet.Common.deps.json
+C:\Users\user\Desktop\studymore\FSDotNet.Common\bin\Debug\net6.0\FSDotNet.Common.dll
+C:\Users\user\Desktop\studymore\FSDotNet.Common\bin\Debug\net6.0\FSDotNet.Common.pdb
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.AssemblyInfo.cs
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.sourcelink.json
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.dll
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\refint\FSDotNet.Common.dll
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\FSDotNet.Common.pdb
+C:\Users\user\Desktop\studymore\FSDotNet.Common\obj\Debug\net6.0\ref\FSDotNet.Common.dll
