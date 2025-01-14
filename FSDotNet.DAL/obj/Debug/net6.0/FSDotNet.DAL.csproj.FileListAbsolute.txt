@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\bin\Debug\net6.0\FSDotNet.DAL.deps.json
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\bin\Debug\net6.0\FSDotNet.DAL.runtimeconfig.json
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\bin\Debug\net6.0\FSDotNet.DAL.dll
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\bin\Debug\net6.0\FSDotNet.DAL.pdb
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.AssemblyInfo.cs
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.sourcelink.json
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.dll
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\refint\FSDotNet.DAL.dll
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.pdb
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\FSDotNet.DAL.genruntimeconfig.cache
+C:\Users\user\Desktop\studymore\FSDotNet.DAL\obj\Debug\net6.0\ref\FSDotNet.DAL.dll

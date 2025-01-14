@@ -3,10 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\models\\bookinghistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\models\\bookinghistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -21,14 +36,7 @@
       "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67F00DF2-C23B-4C5B-88C3-F903B3457A9A}|..\\FSDotNet.DAL\\FSDotNet.DAL.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet.dal\\fsdotnet.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|c:\\users\\user\\desktop\\studymore\\fsdotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F04DBA31-BD29-4DA4-8195-067F1BC082F6}|FSDotNet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,15 +62,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingHistory.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\BookingHistory.cs",
-              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\BookingHistory.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\BookingHistory.cs",
-              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\BookingHistory.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:38:04.313Z",
+              "WhenOpened": "2025-01-14T08:56:20.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelBookingDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
+              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
+              "RelativeToolTip": "..\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T13:17:23.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T08:20:15.128Z",
               "EditorCaption": ""
             },
             {
@@ -73,40 +107,14 @@
               "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\RoomType.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\RoomType.cs",
               "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\RoomType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T07:29:59.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\Room.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Room.cs",
-              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\Room.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:29:41.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Role.cs",
-              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T07:28:50.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\User.cs",
@@ -119,7 +127,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Role.cs",
+              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:28:50.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "BookingHistory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\BookingHistory.cs",
+              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\BookingHistory.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\BookingHistory.cs",
+              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\BookingHistory.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:38:04.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\BaseEntity.cs",
@@ -132,19 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HotelBookingDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
-              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
-              "RelativeToolTip": "..\\FSDotNet.DAL\\Data\\HotelBookingDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:23.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FSDotNet.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\FSDotNet.DAL.csproj",
               "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\FSDotNet.DAL.csproj",
@@ -152,19 +174,34 @@
               "RelativeToolTip": "..\\FSDotNet.DAL\\FSDotNet.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-13T12:49:21.924Z"
+              "WhenOpened": "2025-01-13T12:49:21.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-13T12:45:05.59Z"
+              "WhenOpened": "2025-01-13T12:45:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "..\\FSDotNet.DAL\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\studymore\\FSDotNet.DAL\\Models\\Room.cs",
+              "RelativeToolTip": "..\\FSDotNet.DAL\\Models\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T07:29:41.063Z",
+              "EditorCaption": ""
             }
           ]
         }
