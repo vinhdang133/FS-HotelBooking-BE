@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FSDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32563687ff59d8c09efe6ba6aae6dd320bef39aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3483e54f8f65170398025bb16d3b3fd142dfd411")]
 [assembly: System.Reflection.AssemblyProductAttribute("FSDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FSDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

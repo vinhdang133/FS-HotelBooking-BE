@@ -1,4 +1,8 @@
+using FSDotNet.DAL.Contract;
 using FSDotNet.DAL.Data;
+using FSDotNet.DAL.Implementation;
+using FSDotNet.Services.Contract;
+using FSDotNet.Services.Implementation;
 using Microsoft.EntityFrameworkCore;
 
 namespace FSDotNet
@@ -15,6 +19,9 @@ namespace FSDotNet
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
             builder.Services.AddDbContext<HotelBookingDBContext>(option =>
             {
                 option.UseSqlServer(builder.Configuration["ConnectionStrings:DB"]

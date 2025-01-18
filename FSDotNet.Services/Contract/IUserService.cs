@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FSDotNet.Common.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace FSDotNet.Services.Contract
 {
     public interface IUserService
     {
-
+        public Task<ResponseDTO> GetAllUser();
     }
 }

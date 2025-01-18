@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace FSDotNet.Common.DTO
 {
-    internal class ResponseDTO
+    public class ResponseDTO
     {
+
+        public bool IsSuccess { get; set; } 
+        public object Data { get; set; }
+
+        public int BusinessCode { get; set; }
+
     }
 }
