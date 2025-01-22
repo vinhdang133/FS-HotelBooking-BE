@@ -1,4 +1,5 @@
 ﻿using FSDotNet.Common.DTO;
+using FSDotNet.Common.DTO.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +11,7 @@ namespace FSDotNet.Services.Contract
     public interface IUserService
     {
         public Task<ResponseDTO> GetAllUser();
+        public Task<ResponseDTO> SignUp(SignUpDTO request);
+        public Task<ResponseDTO> Login(LoginRequestDTO request);
     }
 }

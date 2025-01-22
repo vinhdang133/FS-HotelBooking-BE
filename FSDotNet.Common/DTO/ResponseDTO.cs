@@ -12,7 +12,7 @@ namespace FSDotNet.Common.DTO
         public bool IsSuccess { get; set; } 
         public object Data { get; set; }
 
-        public int BusinessCode { get; set; }
+        public BusinessCode.BusinessCode BusinessCode { get; set; }
 
     }
 }

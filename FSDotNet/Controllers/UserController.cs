@@ -21,5 +21,11 @@ namespace FSDotNet.Controllers
         {
             return await _service.GetAllUser();
         }
+        [HttpPost("sign-up")]
+        public async Task<ResponseDTO> SignUp(SignUpDTO request)
+        {
+            return await _service.SignUp(request);
+        }
+
     }
 }
