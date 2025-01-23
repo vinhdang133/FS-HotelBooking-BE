@@ -21,6 +21,32 @@
   },
   {
     "ContainingType": "FSDotNet.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FSDotNet.Common.DTO.Request.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FSDotNet.Common.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FSDotNet.Controllers.UserController",
     "Method": "SignUp",
     "RelativePath": "api/user/sign-up",
     "HttpMethod": "POST",

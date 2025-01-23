@@ -9,7 +9,7 @@ namespace FSDotNet.Common.DTO
     public class ResponseDTO
     {
 
-        public bool IsSuccess { get; set; } 
+        public bool IsSuccess { get; set; } = true;
         public object Data { get; set; }
 
         public BusinessCode.BusinessCode BusinessCode { get; set; }

@@ -1,4 +1,5 @@
 ﻿using FSDotNet.Common.DTO;
+using FSDotNet.Common.DTO.Request;
 using FSDotNet.Services.Contract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -27,5 +28,10 @@ namespace FSDotNet.Controllers
             return await _service.SignUp(request);
         }
 
+        [HttpPost("login")]
+        public async Task<ResponseDTO> Login(LoginRequestDTO dto)
+        {
+            return await _service.Login(dto);
+        }
     }
 }
